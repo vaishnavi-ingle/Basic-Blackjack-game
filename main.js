@@ -5,10 +5,6 @@ let sumEl = document.querySelector("#sum-el");
 let cardsEl = document.querySelector("#cards-el");
 
 function startGame() {
-  console.log("Hello");
-}
-
-function start() {
   if (sum <= 20) {
     console.log("Play another card?");
   } else if (sum === 21) {
