@@ -7,5 +7,17 @@ body {
   font-size: 3em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-    text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px black;
+}
+
+button {
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bolder;
+  /* width: 8em;
+  height: 2.5em; */
+  background: radial-gradient(#89c2d9, #2a6f97);
+  color: #001219;
 }
