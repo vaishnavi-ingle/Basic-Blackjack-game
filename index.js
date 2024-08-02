@@ -1,8 +1,12 @@
 let firstCard = 7;
 let secondcard = 10;
 let sum = firstCard + secondcard;
-let sumEl = document.querySelector("#sum-el");
+let sumEl = document.getElementById("sum-el");
 let cardsEl = document.querySelector("#cards-el");
+
+let ca
+
+sumEl.textContent = "Sum: " + sum
 
 function startGame() {
   if (sum <= 20) {
