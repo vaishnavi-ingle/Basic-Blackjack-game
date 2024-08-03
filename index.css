@@ -21,3 +21,7 @@ button {
   background: radial-gradient(#89c2d9, #2a6f97);
   color: #001219;
 }
+
+#message-el{
+  font-style: italic;
+}
