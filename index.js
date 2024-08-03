@@ -17,7 +17,7 @@ function getRandomCard() {
 }
 
 function startGame() {
-  cardsEl.textContent = "Cards: " + cards[1] + " " + cards[1];
+  cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1];
   sumEl.textContent = "Sum: " + sum;
   if (sum <= 20) {
     console.log("Play another card?");
